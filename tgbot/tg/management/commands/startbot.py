@@ -3,4 +3,4 @@ from tg.bot.bot import start_bot
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-            start_bot()
+        start_bot()
